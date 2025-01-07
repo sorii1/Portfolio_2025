@@ -1,3 +1,14 @@
 .Navbar .logo-portfolio {
     color: #FFD700;
+    font-size: 32px;
+}
+
+.Navbar .navbar-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Navbar a {
+    text-decoration: none;
 }
