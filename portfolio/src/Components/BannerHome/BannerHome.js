@@ -6,6 +6,8 @@ import JobIcon from "../../assets/briefcase-line-icon.svg";
 import LinkIcon from "../../assets/broken-link-icon.svg";
 import MyselfImg from "../../assets/me.jpg";
 import DownloadImg from "../../assets/import-icon.svg";
+import HomeMenu from "../HomeMenu/HomeMenu";
+
 
 export default function BannerHome() {
 
@@ -68,7 +70,9 @@ export default function BannerHome() {
             <Grid2 container className={"center-section"} flexWrap={"nowrap"} flexDirection={"column"}>
                 <Grid2 container flexDirection={"column"} height={"fit-content"}>
                     <p className={"tag-text"}>{openH1}</p>
-                    <p className={"center-section-title"}> Hey I'm Sorin, Front-End Developer </p>
+                    <p className={"center-section-title m-0"}> Hey </p>
+                    <p className={"center-section-title m-0"}> I'm <span className={"y-color"}>Sorin</span>,</p>
+                    <p className={"center-section-title m-0"}>Front-End Developer. </p>
                     <p className={"tag-text"}>{closeH1}</p>
                 </Grid2>
                 <Grid2 container flexDirection={"column"} height={"fit-content"}>
@@ -78,9 +82,8 @@ export default function BannerHome() {
                 </Grid2>
                 <a href={"#"}></a>
             </Grid2>
-            <Grid2 container>
 
-            </Grid2>
+            <HomeMenu></HomeMenu>
         </Grid2>
     )
 }

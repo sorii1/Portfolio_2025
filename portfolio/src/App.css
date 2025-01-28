@@ -8,6 +8,11 @@
   src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: url('./fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+
 body {
   background-color: #292F36;
   font-family: 'IBM Plex Mono - Regular', sans-serif;
@@ -15,4 +20,8 @@ body {
 
 body .title-text {
   font-family: 'IBM Plex Mono - Medium', sans-serif;
+}
+
+body .center-section-title {
+  font-family: "Ubuntu Regular", sans-serif;
 }

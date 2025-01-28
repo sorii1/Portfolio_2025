@@ -53,3 +53,17 @@
     font-size: 14px;
     color: #FFD700;
 }
+
+.homepage-banner .center-section .center-section-title {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.homepage-banner .center-section .center-section-title .y-color {
+    color: #FFD700;
+}
+
+.homepage-banner .center-section .center-section-description {
+    font-size: 16px;
+    color: #FFFFFF;
+}
