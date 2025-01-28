@@ -3,4 +3,53 @@
     height: 96px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 16px;
+    border: solid 3px #FFD700;
+}
+
+.homepage-banner .left-section-text{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.homepage-banner .left-section-text-title{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.homepage-banner .exp-container button{
+    border-radius: 50px;
+    background-color: #FFD700;
+    color: #292F36;
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.homepage-banner .exp-container button:hover{
+    background-color: #FFFFFF;
+}
+
+.homepage-banner .download-cv-button {
+    color: #292F36;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+}
+
+.homepage-banner .download-cv-button:hover {
+    background-color: #FFD700;
+    color: #FFFFFF;
+}
+
+.homepage-banner .download-cv-button:hover img{
+    filter: brightness(50%) invert(1);
+}
+
+.homepage-banner .center-section .tag-text{
+    font-size: 14px;
+    color: #FFD700;
 }
